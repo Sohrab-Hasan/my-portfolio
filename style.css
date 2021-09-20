@@ -1,22 +1,18 @@
 body {
-  font-family: 'Poppins',
-    sans-serif;
+  font-family: Poppins, sans-serif;
   margin: 0px;
 }
 
 h1 {
   font-size: 50px;
-
 }
 
 h2 {
   font-size: 40px;
 }
 
-.name_highlight {
-
-  color: #F9877E;
-
+.highlight {
+  color: rgb(249, 135, 126);
 }
 
 p {
@@ -28,18 +24,17 @@ p {
   float: left;
   margin-left: 5%;
   padding-left: 2%;
+  margin-right: 40px;
 }
 
 .half_width img {
   width: 80%;
-
 }
 
 .topbaner {
-  background-image: url(images/background7.jpg);
+  background-image: url("images/background7.jpg");
   background-repeat: no-repeat;
   background-size: 90px;
-  width: 1440px;
 }
 
 section {
@@ -48,8 +43,7 @@ section {
 }
 
 .linkBtn {
-
-  background-image: linear-gradient(#F9877E, lightSalmon);
+  background-image: linear-gradient(rgb(249, 135, 126), lightsalmon);
   text-decoration: none;
   color: black;
   padding: 10px 20px;
@@ -58,8 +52,39 @@ section {
 }
 
 .dream-area {
-  background-image: url(images/background1.jpg);
+  background-image: url("images/background1.jpg");
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: right center;
   background-size: 75px;
+  margin-bottom: -75px;
+}
+
+.singleExperince {
+  box-shadow: gray 10px 10px 40px;
+  border-radius: 9px;
+  background-color: white;
+}
+
+.experienceArea {
+  background-image: url("images/background2.jpg");
+  background-repeat: no-repeat;
+  background-size: 80px;
+  background-position: left center;
+  margin-bottom: -56px;
+}
+
+.exH2 {
+  text-align: center;
+  margin-bottom: 76px;
+}
+
+#fullStack {
+  border-left: 7px solid;
+  border-image: linear-gradient(lightsalmon, rgb(249, 135, 125)) 1 / 1 / 0 stretch;
+  margin-right: 33px;
+}
+
+footer p {
+  text-align: center;
+  color: dimgray;
 }
